@@ -1,0 +1,17 @@
+version: 1.2.1
+
+cache: true
+
+interface:
+  appTitle: "Data Smart"
+
+balance:
+  enabled: true
+  startBalance: 1000
+  autoRefillEnabled: true
+  refillIntervalValue: 30
+  refillIntervalUnit: "days"
+  refillAmount: 1000
+
+registration:
+  enabled: false
