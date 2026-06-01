@@ -15,3 +15,14 @@ balance:
 
 registration:
   enabled: false
+
+endpoints:
+  custom:
+    - name: "DeepSeek"
+      apiKey: "${DEEPSEEK_API_KEY}"
+      baseURL: "https://api.deepseek.com/v1"
+      models:
+        default: ["deepseek-chat", "deepseek-reasoner"]
+        fetch: false
+      titleConvo: true
+      titleModel: "deepseek-chat"
