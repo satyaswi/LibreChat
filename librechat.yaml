@@ -3,7 +3,7 @@ version: 1.2.1
 cache: true
 
 interface:
-  appTitle: "Data Smart"
+  appTitle: "MKT.CHAT"
 
 balance:
   enabled: true
